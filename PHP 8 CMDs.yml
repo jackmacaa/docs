@@ -1,0 +1,19 @@
+__FILE__ : returns the dir of this file
+__LINE__ : returns the line in text editor
+__CLASS__ : returns class name
+Variable variables :	$foo = "bar" , $$foo = "baz"    name of $$foo is bar
+var_dump : to print and get var type
+Ints : can have _ in between with no change e.g. 200_000 is 200000
+<=> : returns -1 if below 0 if equal and 1 if above
+break : jumps out of current layer of loop, break 2 will jump out of two layers
+Do while : will run the code b4 checking the condition compare to while which only runs if condition is met
+Loop efficiency :
+  - Having the count function run in the for loop means its called every time
+  - setting it to a variable or set in the first
+  - part of the for loop would be better e.g. for($i = 0, $length = count($arr); $i < $length; i++)
+foreach : the variable created in the foreach loop is not destroyed, is still a reference to the last element
+option : to replace brackets with ":" and "endthing" e.g. while(condition)    endwhile;
+include : will continue on with the code if is missing or error, where as require will stop
+function declaration : Can set parameters of function e.g. foo(y":" $y, x":" $x)  will work on function foo($x, $y)
+Static method : These can be called from the class without the need to create an instance of the class first
+

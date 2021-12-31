@@ -1,0 +1,8 @@
+git add - adds files
+git rm - removes files
+git checkout - changes branch
+git checkout -b <name> - creates a branch
+git commit - says "i'm at a checkpoint, I'd like to save"
+git push origin HEAD - pushes my checkpoints to Bitbucket
+git remote add origin https://github.com/jackmacaa/datetime.git
+
