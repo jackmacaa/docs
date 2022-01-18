@@ -1,0 +1,12 @@
+
+mageTV:
+	from magento 2.2.5
+Vessel cmds:
+	./vessel start
+	./vessel magento cache:flush
+	./vessel magento index:reindex
+	./vessel magento indexer:reindex
+	./vessel shell
+
+
+

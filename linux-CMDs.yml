@@ -1,0 +1,10 @@
+rmdir
+open
+mv
+cp
+> >>
+wc
+sort
+uniq
+diff
+find

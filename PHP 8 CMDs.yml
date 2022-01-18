@@ -1,3 +1,5 @@
+Useful functions : strval, intval, strrev, substr,
+
 __FILE__ : returns the dir of this file
 __LINE__ : returns the line in text editor
 __CLASS__ : returns class name
@@ -16,4 +18,9 @@ option : to replace brackets with ":" and "endthing" e.g. while(condition)    en
 include : will continue on with the code if is missing or error, where as require will stop
 function declaration : Can set parameters of function e.g. foo(y":" $y, x":" $x)  will work on function foo($x, $y)
 Static method : These can be called from the class without the need to create an instance of the class first
+Interface : Should be used when they describe what should be done but not how
+Global vars :
+   - $_SERVER['DOCUMENT_ROOT'], $_SERVER['PHP_SELF'] = current page, $_SERVER['SCRIPT_FILENAME'] = absolute path, $_SERVER['REMOTE_ADDR'] = client IP, $_SERVER['REMOTE_PORT'], $_SERVER['QUERY_STRING'] = ?name=jack&email=jack@msn.com
+   - $_REQUEST[] is the data from $_POST[] and $_GET[] combined
+
 

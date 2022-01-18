@@ -1,8 +1,29 @@
 git add - adds files
+
 git rm - removes files
+
 git checkout - changes branch
 git checkout -b <name> - creates a branch
-git commit - says "i'm at a checkpoint, I'd like to save"
-git push origin HEAD - pushes my checkpoints to Bitbucket
-git remote add origin https://github.com/jackmacaa/datetime.git
+git checkout main
+git checkout -b feature/my-cool-feature
 
+git checkout main
+get checkout feature/new-feature
+git merge feature/other-feature
+
+git checkout main
+git pull origin main # this might error
+git merge <your feature branch> # this should say "already up to date" or something similar
+git push origin main --force # to tell github we are _sure_ we want to do this
+
+git push origin feature/my-cool-feature
+
+git commit - says "i'm at a checkpoint, I'd like to save"
+
+git push origin HEAD - pushes my checkpoints to Bitbucket
+
+git remote set-url origin git@github.com:jackmacaa/docs.git
+git remote add origin git@github.com:jackmacaa/docs.gitgit
+
+git restore app/
+git pull 

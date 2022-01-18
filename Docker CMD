@@ -6,8 +6,9 @@ docker-compose up -d
 docker build -t
 docker logs new-php 
 
+docker stop <cont>
 
 docker run -d -p 8080:80 -v "$PWD":/var/www/html php-runtime
 docker run -p 3306:3306 --name jack-db2 -e MYSQL_ROOT_PASSWORD=my -d mysql:8.0
 
-
+docker exec -it new-php /bin/bash
