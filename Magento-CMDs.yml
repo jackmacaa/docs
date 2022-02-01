@@ -1,12 +1,19 @@
-
 mageTV:
 	from magento 2.2.5
-Vessel cmds:
-	./vessel start
-	./vessel magento cache:flush
-	./vessel magento index:reindex
-	./vessel magento indexer:reindex
-	./vessel shell
-
+Vessel cmds: 
+./vessel
+	n98 	db:import --compression=gzip /db/dbname.sql.gz
+	n98 	setup:upgrade
+	magento				List all cmds
+		start			
+		cache:flush
+		indexer:reindex
+		shell				get into container terminal
+		setup:upgrade			Upgrades the Magento application, DB data, and schema
+		module:status			lists enabled/disabled modules
+		module:enable <name>
+		admin:user:create
+		info:adminuri
+				
 
 

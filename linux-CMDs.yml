@@ -1,3 +1,5 @@
+sudoedit /etc/hosts  : whitelisted sudoedit file wont work
+
 rmdir
 open
 mv
@@ -5,6 +7,11 @@ cp
 > >>
 wc
 sort
+less
 uniq
 diff
 find
+grep
+du df
+history  !number
+

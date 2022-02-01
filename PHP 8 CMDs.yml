@@ -1,4 +1,11 @@
-Useful functions : strval, intval, strrev, substr,
+Useful functions :
+  - strval()
+  - intval()
+  - strrev()
+  - substr()
+  - htmlspecialchars() changes potentially malicious
+  - serialize(array => string), unserialize()
+  - basename() returns lowest level from path /dir1/dir2/myfile.php = myfile.php, dirname() = /dir1/dir2, realpath()
 
 __FILE__ : returns the dir of this file
 __LINE__ : returns the line in text editor
@@ -22,5 +29,5 @@ Interface : Should be used when they describe what should be done but not how
 Global vars :
    - $_SERVER['DOCUMENT_ROOT'], $_SERVER['PHP_SELF'] = current page, $_SERVER['SCRIPT_FILENAME'] = absolute path, $_SERVER['REMOTE_ADDR'] = client IP, $_SERVER['REMOTE_PORT'], $_SERVER['QUERY_STRING'] = ?name=jack&email=jack@msn.com
    - $_REQUEST[] is the data from $_POST[] and $_GET[] combined
-
+Sessions : Session is stored on the server while cookie is stored on the client
 

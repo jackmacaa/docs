@@ -1,0 +1,11 @@
+Ticket gets assigned to you
+You provide an estimate for how long you think it'll take (we use PERT, we'll get to that, just work with "it'll take Xhrs for now")
+Assign that to the PM (Ben in almost all cases)
+Move ticket to "Estimate to be approved"
+The PM will assign back to you with "Approved" as the status when they've approved the estimate
+You'll move it to "In Progress/Development"
+...magic happens here___
+Then you move it to "Code Review"
+When the PR is approved by 2 people (in Tentworld it's 2, in others it's more or less)...you move it to "Ready for Staging"
+When it gets merged, you move it to "Internal QA" and test the change in staging
+If all good; move to "Done", if not; comment why and if you'll need more time (another estimate) and go back to the second point 

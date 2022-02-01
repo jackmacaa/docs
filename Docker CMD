@@ -1,4 +1,15 @@
+docker version
+docker info
+
+docker container run -d -p 8080:80 --name contname nginx
+docker container run -d -p 8081:80 --name contname httpd
+docker container run -d -p 3306:3306 --name contname --env MYSQL_ROOT_PASSWORD=pass mysql
+
+
+docker container ls -a 
+
 Docker ps
+docker ps -a
 docker stopdock
 docker rm
 
