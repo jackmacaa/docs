@@ -21,7 +21,20 @@ docker run -p 3306:3306 --name jack-db2 -e MYSQL_ROOT_PASSWORD=my -d mysql:8.0
 docker exec -it <cont> /bin/bash
 exit
 
-docker-compose file example: node app with mongo DB
-
+docker-compose file example - node app with mongo DB
 version: '3'
+services:
+  app:
+    container_name: docker-nod-mogo
+    restart: always
+    build: .
+    ports:
+      - '80:3000'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
 

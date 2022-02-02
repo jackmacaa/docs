@@ -5,6 +5,9 @@ Vessel cmds:
 	n98 	db:import --compression=gzip /db/dbname.sql.gz
 	n98 	setup:upgrade
 	magento				List all cmds
+	cf					cache flush
+	cc
+					
 		start			
 		cache:flush
 		indexer:reindex

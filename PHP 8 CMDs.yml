@@ -6,6 +6,7 @@ Useful functions :
   - htmlspecialchars() changes potentially malicious
   - serialize(array => string), unserialize()
   - basename() returns lowest level from path /dir1/dir2/myfile.php = myfile.php, dirname() = /dir1/dir2, realpath()
+  - filter_var('joh n@example.com', FILTER_SANITIZE_EMAIL)) = outputs john@example.com
 
 __FILE__ : returns the dir of this file
 __LINE__ : returns the line in text editor
